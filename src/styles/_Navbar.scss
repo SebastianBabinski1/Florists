@@ -1,0 +1,34 @@
+@import './_variables.scss';
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        margin: 1rem 0 0 0 ;
+        width: 130px;
+    }
+
+    p  {
+        font-size: 1.8rem;
+        margin: 0 0 0.5rem 0;
+    }
+} 
+
+.navbar {
+    display: flex;
+    background-color: $primary-color;
+    justify-content: center;
+    
+    > a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        margin: 5px 10px;
+        border-bottom: 2px solid $primary-color;
+        &:hover {
+            border-bottom: 2px solid white;
+        }
+    }
+}

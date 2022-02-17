@@ -1,0 +1,61 @@
+@import '../variables';
+
+.offer-content-title{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 6rem auto;
+    border-bottom: 1px solid black;
+    max-width: max-content;
+}
+
+.offer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    &__left{
+        padding: 1rem;
+        border-right: 1px solid black;
+        &__title{
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        &__description{
+            font-style: italic;
+            margin-bottom: 0.5rem;
+
+        }
+
+        &__image{
+            width: 15rem;
+            height: 15rem;
+            object-fit: cover;
+        }
+    }
+
+    &__right{
+        display: grid;
+        padding: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+
+        .bouquet{
+            transition: all 0.5s ease;
+            width: 10rem;    
+            height: 10rem;
+            object-fit: cover;
+            
+            &:hover{
+                cursor: pointer;
+                opacity: 0.7;
+            }
+        }
+    }
+
+}
+
+.bg{
+    background-color: $secondary-color
+}

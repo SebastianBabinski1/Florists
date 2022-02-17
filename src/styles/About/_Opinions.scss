@@ -1,0 +1,34 @@
+@import '../variables';
+
+.opinions-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $secondary-color;
+
+    &__title{
+        font-weight: bold;
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .bi-facebook{
+        margin-bottom: 1rem;
+    }
+}
+
+.opinions-wrapper{
+    display: flex;
+}
+
+.opinion{
+    margin: 0.5rem;
+
+    &__text{
+        font-style: italic;
+    }
+
+    &__date{
+        font-weight: bold;
+    }
+}

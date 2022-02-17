@@ -1,0 +1,249 @@
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-wrapper img {
+  margin: 1rem 0 0 0;
+  width: 130px;
+}
+.logo-wrapper p {
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: #252627;
+  justify-content: center;
+}
+.navbar > a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border-bottom: 2px solid #252627;
+}
+.navbar > a:hover {
+  border-bottom: 2px solid white;
+}
+
+.carousel-inner {
+  height: 600px;
+}
+.carousel-inner img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.start-content {
+  text-align: center;
+  margin: 5rem 0 0 0;
+}
+
+.description__normal {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+.description__bold {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.advantages-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.advantage {
+  margin: 2rem;
+  width: 25%;
+}
+.advantage__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.advantage__description {
+  font-size: 1.3rem;
+}
+
+.summary-bar-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #F2EFE9;
+  margin: 3rem 0;
+}
+
+.summary-item {
+  justify-content: space-between;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.summary-item__description {
+  font-size: 1.2rem;
+  margin: 1rem 0 0 0;
+}
+.summary-item__button {
+  width: 40%;
+  height: 2.5rem;
+  margin: 1rem;
+  background-color: #252627;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+}
+.summary-item__button:hover {
+  box-shadow: 2px 2px 5px gray;
+}
+
+.footer-wrapper {
+  background-color: #252627;
+  color: white;
+  padding: 1rem 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 1rem 0;
+  border-bottom: 1px solid white;
+}
+.top-bar__email {
+  margin: 0 0.5rem;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 0.5rem 0;
+}
+.bottom-bar__left {
+  width: 50%;
+}
+.bottom-bar__left img {
+  margin: 0 1rem 0 auto;
+  width: 5rem;
+}
+.bottom-bar__right {
+  border-left: 1px solid white;
+  width: 50%;
+  padding: 0.5rem;
+}
+.bottom-bar__right .bi-facebook {
+  position: absolute;
+  left: calc(50% - 0.5rem);
+}
+.bottom-bar__right__phone-wrapper {
+  display: flex;
+  padding: 0.5rem 0;
+}
+.bottom-bar__right__phone-wrapper p {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.about-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-content-wrapper__description {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 6rem;
+  border-bottom: 1px solid black;
+}
+.about-content-wrapper__image {
+  width: 50%;
+}
+
+.opinions-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2EFE9;
+}
+.opinions-section-wrapper__title {
+  font-weight: bold;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+.opinions-section-wrapper .bi-facebook {
+  margin-bottom: 1rem;
+}
+
+.opinions-wrapper {
+  display: flex;
+}
+
+.opinion {
+  margin: 0.5rem;
+}
+.opinion__text {
+  font-style: italic;
+}
+.opinion__date {
+  font-weight: bold;
+}
+
+.offer-content-title {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 6rem auto;
+  border-bottom: 1px solid black;
+  max-width: max-content;
+}
+
+.offer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.offer-wrapper__left {
+  padding: 1rem;
+  border-right: 1px solid black;
+}
+.offer-wrapper__left__title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.offer-wrapper__left__description {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+.offer-wrapper__left__image {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+.offer-wrapper__right {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+.offer-wrapper__right .bouquet {
+  transition: all 0.5s ease;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+.offer-wrapper__right .bouquet:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.bg {
+  background-color: #F2EFE9;
+}
+
+/*# sourceMappingURL=index.css.map */

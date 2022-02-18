@@ -1,6 +1,11 @@
+import { useInView } from "react-intersection-observer";
+
 export const SummaryBar = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.05,
+  });
   return (
-    <div className="summary-bar-wrapper">
+    <div className={`summary-bar-wrapper ${inView ? `visible` : ``}`} ref={ref}>
       <div className="summary-item">
         <p className="summary-item__description">Poznaj naszą ofertę</p>
         <button className="summary-item__button">OFERTA</button>

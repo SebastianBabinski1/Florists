@@ -14,6 +14,8 @@
     align-items: center;
     justify-content: center;
     margin: 2rem 0;
+    
+    background-position: right bottom;
     &__left{
         padding: 1rem;
         border-right: 1px solid black;
@@ -57,5 +59,8 @@
 }
 
 .bg{
-    background-color: $secondary-color
+    background: linear-gradient(to left, white 50% , $secondary-color 50%);
+    background-position: left bottom;
+    transition: 2s ease;
+    background-size: 200% 100%;
 }

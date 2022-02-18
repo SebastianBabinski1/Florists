@@ -33,7 +33,11 @@ export const Footer = () => {
             </svg>
             <p>+48 883 645 559</p>
           </div>
-          <a href="#">
+          <a
+            href="https://www.facebook.com/profile.php?id=100012840816877"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"

@@ -5,6 +5,7 @@
     justify-content: center;
     background-color: $secondary-color;
     margin: 3rem 0 ;
+    opacity: 0;
 }
 
 .summary-item {
@@ -33,4 +34,9 @@
             box-shadow: 2px 2px 5px gray
         }
     }
+}
+
+.visible{
+    transition: 2s ease;
+    opacity: 1;
 }

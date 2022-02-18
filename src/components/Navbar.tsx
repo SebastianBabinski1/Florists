@@ -9,10 +9,14 @@ export const Navbar = () => {
         <a href="/">Start</a>
         <a href="/about">O nas</a>
         <a href="/offer">Oferta</a>
-        <a href="#">Zamów online</a>
-        <a href="#">Galeria</a>
-        <a href="#">Kontakt</a>
-        <a href="#">
+        <a href="/shop">Zamów online</a>
+        <a href="/galery">Galeria</a>
+        <a href="/contact">Kontakt</a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100012840816877"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"

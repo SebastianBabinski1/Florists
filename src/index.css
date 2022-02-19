@@ -296,6 +296,35 @@
   max-width: max-content;
 }
 
+.shop__contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.shop__contact__description {
+  max-width: 30rem;
+  font-size: 1.5rem;
+}
+.shop__contact__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 2.5rem;
+  margin: 1rem;
+  background-color: #252627;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+}
+.shop__contact__button:hover {
+  color: white;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px gray;
+}
+
 .shop-navbar {
   display: flex;
   background-color: rgba(242, 239, 233, 0.7);
@@ -315,16 +344,99 @@
 .step-by-step-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .step {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 1rem;
+  max-width: 13rem;
+}
+.step > .bi {
+  margin-bottom: 1rem;
+}
+
+.shop-image-wrapper {
+  position: relative;
+}
+
+.shop-image {
+  max-height: 20rem;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.6;
+}
+.shop-image-description {
+  position: absolute;
+  top: calc(50% - 2rem);
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.shop-items-wrapper {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.shop-item {
+  position: relative;
+  display: flex;
+  max-width: max-content;
+  box-shadow: 2px 2px 5px gray;
+  margin: 1rem;
+}
+.shop-item__left {
+  padding: 1rem;
+  width: 15rem;
+}
+.shop-item__left__image {
+  height: 20rem;
+  object-fit: cover;
+}
+.shop-item__left__image:hover {
+  cursor: pointer;
+}
+.shop-item__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15rem;
+  text-align: center;
+  padding: 1rem;
+}
+.shop-item__right__title {
+  padding-bottom: 1rem;
+}
+.shop-item__right__description {
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.shop-item__right__price {
+  padding-bottom: 1rem;
+}
+.shop-item__number {
+  display: flex;
+  background-color: #252627;
+  color: white;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
   align-items: center;
   justify-content: center;
-  margin: 0 1rem;
+  font-weight: bold;
+  right: 0;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=index.css.map */

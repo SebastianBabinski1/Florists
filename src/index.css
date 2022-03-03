@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 .logo-wrapper img {
   margin: 1rem 0 0 0;
@@ -28,6 +29,22 @@
   border-bottom: 2px solid white;
 }
 
+.bi-list {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    display: none;
+  }
+
+  .bi-list {
+    visibility: visible;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+  }
+}
 .carousel-inner {
   height: 600px;
 }
@@ -68,6 +85,16 @@
   font-size: 1.3rem;
 }
 
+@media screen and (max-width: 480px) {
+  .advantages-wrapper {
+    flex-direction: column;
+  }
+
+  .advantage {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
 .summary-bar-wrapper {
   display: flex;
   justify-content: center;
@@ -107,6 +134,19 @@
   opacity: 1;
 }
 
+@media screen and (max-width: 480px) {
+  .summary-bar-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .summary-item {
+    width: 100%;
+  }
+  .summary-item__button {
+    width: 40%;
+  }
+}
 .footer-wrapper {
   background-color: #252627;
   color: white;
@@ -388,6 +428,12 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 480px) {
+  .shop-items-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .shop-item {
   position: relative;
   display: flex;

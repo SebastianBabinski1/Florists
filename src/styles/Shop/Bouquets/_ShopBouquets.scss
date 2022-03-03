@@ -5,3 +5,10 @@
     grid-gap: 1rem;
     justify-content: center;
 }
+
+@media screen and (max-width: 480px) {
+.shop-items-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+}

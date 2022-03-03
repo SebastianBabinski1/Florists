@@ -33,3 +33,13 @@
         font-size: 1.3rem
     }
 }
+
+@media screen and (max-width: 480px){
+    .advantages-wrapper {
+        flex-direction: column;
+    }
+    .advantage {
+        width: 100%;
+        margin: 1rem 0 
+    }
+}

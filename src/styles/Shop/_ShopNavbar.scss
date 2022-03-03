@@ -16,3 +16,10 @@
         }
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .shop-navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+}

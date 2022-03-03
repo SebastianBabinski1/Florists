@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export const Navbar = () => {
+  const [menu, setMenu] = useState(true);
   return (
     <div className="header-wrapper">
       <div className="logo-wrapper">
@@ -8,9 +11,12 @@ export const Navbar = () => {
           xmlns="http://www.w3.org/2000/svg"
           width="40"
           height="40"
-          fill="black"
+          fill={`${menu ? "black" : "white"}`}
           className="bi bi-list"
           viewBox="0 0 16 16"
+          onClick={() => {
+            setMenu(!menu);
+          }}
         >
           <path
             fillRule="evenodd"
@@ -18,7 +24,7 @@ export const Navbar = () => {
           />
         </svg>
       </div>
-      <nav className="navbar">
+      <nav className={`navbar ${menu ? "menu-slide" : ""}`}>
         <a href="/">Start</a>
         <a href="/about">O nas</a>
         <a href="/offer">Oferta</a>

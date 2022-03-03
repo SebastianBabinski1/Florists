@@ -33,16 +33,26 @@
   visibility: hidden;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .navbar {
-    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    transition: transform 0.4s ease-in-out;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .menu-slide {
+    transform: translate(0, -100%);
   }
 
   .bi-list {
     visibility: visible;
     position: absolute;
     right: 1rem;
-    top: 50%;
+    top: 0.5rem;
+    z-index: 2;
   }
 }
 .carousel-inner {
@@ -85,7 +95,7 @@
   font-size: 1.3rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .advantages-wrapper {
     flex-direction: column;
   }
@@ -116,7 +126,7 @@
   margin: 1rem 0 0 0;
 }
 .summary-item__button {
-  width: 40%;
+  min-width: 9rem;
   height: 2.5rem;
   margin: 1rem;
   background-color: #252627;
@@ -134,7 +144,7 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .summary-bar-wrapper {
     flex-direction: column;
     align-items: center;
@@ -142,9 +152,6 @@
 
   .summary-item {
     width: 100%;
-  }
-  .summary-item__button {
-    width: 40%;
   }
 }
 .footer-wrapper {
@@ -381,6 +388,12 @@
   border-bottom: 2px solid black;
 }
 
+@media screen and (max-width: 1024px) {
+  .shop-navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .step-by-step-wrapper {
   display: flex;
   justify-content: center;
@@ -428,10 +441,11 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
   .shop-items-wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 .shop-item {

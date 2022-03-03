@@ -37,15 +37,25 @@
     visibility: hidden;
 }
 
-@media screen and (max-width: 480px) {
-    .navbar {
-        display: none;  
+@media screen and (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        transition: transform 0.4s ease-in-out;
+        z-index: 1;
+        width: 100%;
     }
+    .menu-slide {
+        transform: translate(0, -100%);
+    }
+    
     
     .bi-list {
         visibility:visible;
         position: absolute;
         right: 1rem;
-        top: 50%;
+        top: 0.5rem;
+        z-index: 2;
     }
 }

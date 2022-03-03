@@ -64,3 +64,16 @@
     transition: 2s ease;
     background-size: 200% 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .offer-wrapper {
+        flex-direction: column;
+        &__left{
+            border-right: 0px;
+            border-bottom: 1px solid black;
+        }
+        &__right{
+        grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

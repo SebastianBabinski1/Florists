@@ -57,3 +57,14 @@
         bottom: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .shop-item{
+        width: 100%;
+        &__left{
+            &__image{
+                height: 15rem;
+            }
+        }
+    }
+}

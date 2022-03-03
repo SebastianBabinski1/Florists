@@ -8,19 +8,25 @@ export const SummaryBar = () => {
     <div className={`summary-bar-wrapper ${inView ? `visible` : ``}`} ref={ref}>
       <div className="summary-item">
         <p className="summary-item__description">Poznaj naszą ofertę</p>
-        <button className="summary-item__button">OFERTA</button>
+        <a href="/offer" className="summary-item__button">
+          OFERTA
+        </a>
       </div>
       <div className="summary-item">
         <p className="summary-item__description">
           Odwiedź kwiaciarnię online i złóż zamówienie
         </p>
-        <button className="summary-item__button">SKLEP</button>
+        <a href="/shop" className="summary-item__button">
+          SKLEP
+        </a>
       </div>
       <div className="summary-item">
         <p className="summary-item__description">
           Odwiedź nas i spraw radość sobie lub komuś bliskiemu
         </p>
-        <button className="summary-item__button">KONTAKT</button>
+        <a href="/contact" className="summary-item__button">
+          KONTAKT
+        </a>
       </div>
     </div>
   );

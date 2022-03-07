@@ -10,7 +10,7 @@ export const Cemetery = () => {
   return (
     <div
       id="cemetery"
-      className={`offer-wrapper ${inView ? `bg` : ``}`}
+      className={`offer-wrapper ${inView ? `bg visible` : ``}`}
       ref={ref}
     >
       <div className="offer-wrapper__left">

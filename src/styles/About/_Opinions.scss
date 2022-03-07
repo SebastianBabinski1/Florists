@@ -5,6 +5,8 @@
     flex-direction: column;
     align-items: center;
     background-color: $secondary-color;
+    opacity: 0;
+
 
     &__title{
         font-weight: bold;
@@ -31,4 +33,9 @@
     &__date{
         font-weight: bold;
     }
+}
+
+.visible{
+    transition: 2s ease;
+    opacity: 1;
 }

@@ -1,9 +1,18 @@
 import { useGlobalContext } from "./Offer";
+import { useInView } from "react-intersection-observer";
+
 export const Wreaths = () => {
   const { setPath } = useGlobalContext();
+  const { ref, inView } = useInView({
+    threshold: 0.1,
+  });
 
   return (
-    <div id="wreaths" className="offer-wrapper">
+    <div
+      id="wreaths"
+      className={`offer-wrapper ${inView ? `visible` : ``}`}
+      ref={ref}
+    >
       <div className="offer-wrapper__left">
         <p className="offer-wrapper__left__title">Wieńce pogrzebowe</p>
         <p className="offer-wrapper__left__description">123</p>

@@ -1,6 +1,11 @@
+import { useInView } from "react-intersection-observer";
+
 export const StartContent = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.1,
+  });
   return (
-    <div className="start-content">
+    <div className={`start-content ${inView ? `visible` : ``}`} ref={ref}>
       <div className="description">
         <p className="description__normal">
           Kwiaty to upominek, który wyraża więcej niż jakiekolwiek słowa.

@@ -1,10 +1,18 @@
+import { useInView } from "react-intersection-observer";
 import { useGlobalContext } from "./Offer";
 
 export const Weddings = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.1,
+  });
   const { setPath } = useGlobalContext();
 
   return (
-    <div id="weddings" className="offer-wrapper">
+    <div
+      id="weddings"
+      className={`offer-wrapper ${inView ? `visible` : ``}`}
+      ref={ref}
+    >
       <div className="offer-wrapper__left">
         <p className="offer-wrapper__left__title">Śluby i wesela</p>
         <p className="offer-wrapper__left__description">123</p>

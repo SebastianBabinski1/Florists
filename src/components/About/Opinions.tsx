@@ -1,6 +1,14 @@
+import { useInView } from "react-intersection-observer";
+
 export const Opinions = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.05,
+  });
   return (
-    <div className="opinions-section-wrapper">
+    <div
+      className={`opinions-section-wrapper ${inView ? `visible` : ``}`}
+      ref={ref}
+    >
       <p className="opinions-section-wrapper__title">OPINIE NASZYCH KLIENTÓW</p>
       <svg
         xmlns="http://www.w3.org/2000/svg"

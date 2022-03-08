@@ -27,82 +27,82 @@ export const Bouquets = () => {
       <div className="offer-wrapper__right">
         <img
           className="bouquet"
-          src="assets/Bouquets/Bouquet1.jpg"
+          src="assets/Bouquets/bouquet1.jpg"
           alt="bouquet"
           onClick={() => {
-            setPath("assets/Bouquets/Bouquet1.jpg");
+            setPath("assets/Bouquets/bouquet1.jpg");
             $("#photo-modal").modal("show");
           }}
         />
         <img
           className="bouquet"
-          src="assets/Bouquets/Bouquet2.jpg"
+          src="assets/Bouquets/bouquet2.jpg"
           alt="bouquet"
           onClick={() => {
-            setPath("assets/Bouquets/Bouquet2.jpg");
+            setPath("assets/Bouquets/bouquet2.jpg");
             $("#photo-modal").modal("show");
           }}
         />
         <img
           className="bouquet"
-          src="assets/Bouquets/Bouquet3.jpg"
+          src="assets/Bouquets/bouquet3.jpg"
           alt="bouquet"
           onClick={() => {
-            setPath("assets/Bouquets/Bouquet3.jpg");
+            setPath("assets/Bouquets/bouquet3.jpg");
             $("#photo-modal").modal("show");
           }}
         />
         <img
           className="bouquet"
-          src="assets/Bouquets/Bouquet4.jpg"
+          src="assets/Bouquets/bouquet4.jpg"
           alt="bouquet"
           onClick={() => {
-            setPath("assets/Bouquets/Bouquet4.jpg");
+            setPath("assets/Bouquets/bouquet4.jpg");
             $("#photo-modal").modal("show");
           }}
         />
         <img
           className="bouquet"
-          src="assets/Bouquets/Bouquet5.jpg"
+          src="assets/Bouquets/bouquet5.jpg"
           alt="bouquet"
           onClick={() => {
-            setPath("assets/Bouquets/Bouquet5.jpg");
+            setPath("assets/Bouquets/bouquet5.jpg");
             $("#photo-modal").modal("show");
           }}
         />
         <img
           className="bouquet"
-          src="assets/Bouquets/Bouquet6.jpg"
+          src="assets/Bouquets/bouquet6.jpg"
           alt="bouquet"
           onClick={() => {
-            setPath("assets/Bouquets/Bouquet6.jpg");
+            setPath("assets/Bouquets/bouquet6.jpg");
             $("#photo-modal").modal("show");
           }}
         />
         <img
           className="bouquet"
-          src="assets/Bouquets/Bouquet7.jpg"
+          src="assets/Bouquets/bouquet7.jpg"
           alt="bouquet"
           onClick={() => {
-            setPath("assets/Bouquets/Bouquet7.jpg");
+            setPath("assets/Bouquets/bouquet7.jpg");
             $("#photo-modal").modal("show");
           }}
         />
         <img
           className="bouquet"
-          src="assets/Bouquets/Bouquet8.jpg"
+          src="assets/Bouquets/bouquet8.jpg"
           alt="bouquet"
           onClick={() => {
-            setPath("assets/Bouquets/Bouquet8.jpg");
+            setPath("assets/Bouquets/bouquet8.jpg");
             $("#photo-modal").modal("show");
           }}
         />
         <img
           className="bouquet"
-          src="assets/Bouquets/Bouquet9.jpg"
+          src="assets/Bouquets/bouquet9.jpg"
           alt="bouquet"
           onClick={() => {
-            setPath("assets/Bouquets/Bouquet9.jpg");
+            setPath("assets/Bouquets/bouquet9.jpg");
             $("#photo-modal").modal("show");
           }}
         />

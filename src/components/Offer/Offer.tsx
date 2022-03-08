@@ -25,8 +25,8 @@ export const Offer = () => {
       <div className="offer-content-wrapper">
         <p className="offer-content-title page-title">OFERTA</p>
         <div className="offers">
+          <Modal path={path} />
           <PathContext.Provider value={{ setPath }}>
-            <Modal path={path} />
             <Bouquets />
             <Compositions />
             <Weddings />

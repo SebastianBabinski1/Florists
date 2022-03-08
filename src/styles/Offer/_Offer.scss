@@ -9,7 +9,9 @@
     background-position: right bottom;
     
     &__left{
+        text-align: center;
         padding: 1rem;
+        width: 15rem;
         border-right: 1px solid black;
         &__title{
             font-weight: bold;
@@ -19,13 +21,13 @@
         &__description{
             font-style: italic;
             margin-bottom: 0.5rem;
-
         }
 
         &__image{
-            width: 15rem;
-            height: 15rem;
             object-fit: cover;
+            height: 15rem;
+            width: 100%;
+
         }
     }
 

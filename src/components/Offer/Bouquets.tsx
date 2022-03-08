@@ -15,7 +15,9 @@ export const Bouquets = () => {
     >
       <div className="offer-wrapper__left">
         <p className="offer-wrapper__left__title">Bukiety i wiązanki</p>
-        <p className="offer-wrapper__left__description">123</p>
+        <p className="offer-wrapper__left__description">
+          Różnorodne bukiety na każdą okazję
+        </p>
         <img
           className="offer-wrapper__left__image"
           src="assets/Bouquets/bouquet6.jpg"

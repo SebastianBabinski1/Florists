@@ -16,7 +16,9 @@ export const Cemetery = () => {
     >
       <div className="offer-wrapper__left">
         <p className="offer-wrapper__left__title">Kompozycje na nagrobek</p>
-        <p className="offer-wrapper__left__description">123</p>
+        <p className="offer-wrapper__left__description">
+          Niezwykle trwałe i dopasowane do nagrobka
+        </p>
         <img
           className="offer-wrapper__left__image"
           src="assets/Cemetery/cemetery5.jpg"

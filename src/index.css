@@ -278,7 +278,9 @@
   background-position: right bottom;
 }
 .offer-wrapper__left {
+  text-align: center;
   padding: 1rem;
+  width: 15rem;
   border-right: 1px solid black;
 }
 .offer-wrapper__left__title {
@@ -290,9 +292,9 @@
   margin-bottom: 0.5rem;
 }
 .offer-wrapper__left__image {
-  width: 15rem;
-  height: 15rem;
   object-fit: cover;
+  height: 15rem;
+  width: 100%;
 }
 .offer-wrapper__right {
   display: grid;

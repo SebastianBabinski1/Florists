@@ -16,7 +16,9 @@ export const Compositions = () => {
     >
       <div className="offer-wrapper__left">
         <p className="offer-wrapper__left__title">Kompozycje w szkle</p>
-        <p className="offer-wrapper__left__description">123</p>
+        <p className="offer-wrapper__left__description">
+          Świetny prezent i element wystroju
+        </p>
         <img
           className="offer-wrapper__left__image"
           src="assets/Compositions/composition4.jpg"

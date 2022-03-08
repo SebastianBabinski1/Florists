@@ -16,7 +16,9 @@ export const Wreaths = () => {
     >
       <div className="offer-wrapper__left">
         <p className="offer-wrapper__left__title">Wieńce pogrzebowe</p>
-        <p className="offer-wrapper__left__description">123</p>
+        <p className="offer-wrapper__left__description">
+          Wykonane z najlepszych materiałów
+        </p>
         <img
           className="offer-wrapper__left__image"
           src="assets/Wreaths/wreath6.jpg"

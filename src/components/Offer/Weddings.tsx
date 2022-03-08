@@ -16,7 +16,9 @@ export const Weddings = () => {
     >
       <div className="offer-wrapper__left">
         <p className="offer-wrapper__left__title">Śluby i wesela</p>
-        <p className="offer-wrapper__left__description">123</p>
+        <p className="offer-wrapper__left__description">
+          Kompleksowa obsługa wystroju kościelnego i sal weselnych
+        </p>
         <img
           className="offer-wrapper__left__image"
           src="assets/Weddings/wedding5.jpg"

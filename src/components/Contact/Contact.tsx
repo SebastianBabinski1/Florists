@@ -7,7 +7,7 @@ export const Contact = () => {
     <>
       <Navbar />
       <div className="contact-content-wrapper">
-        <p className="contact-content-title">KONTAKT</p>
+        <p className="contact-content-title page-title">KONTAKT</p>
         <div className="contact-content">
           <p className="contact-content__header">
             Zamów kwiaty z dowozem lub odbierz na miejscu

@@ -23,7 +23,7 @@ export const Offer = () => {
     <>
       <Navbar />
       <div className="offer-content-wrapper">
-        <p className="offer-content-title">OFERTA</p>
+        <p className="offer-content-title page-title">OFERTA</p>
         <div className="offers">
           <PathContext.Provider value={{ setPath }}>
             <Modal path={path} />

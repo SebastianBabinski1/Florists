@@ -28,7 +28,7 @@ export const Navbar = () => {
         <a href="/">Start</a>
         <a href="/about">O nas</a>
         <a href="/offer">Oferta</a>
-        <a href="/shop">Zamów online</a>
+        <a href="/shop">Sklep</a>
         <a href="/contact">Kontakt</a>
         <a
           href="https://www.facebook.com/profile.php?id=100012840816877"

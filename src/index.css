@@ -207,22 +207,33 @@
   font-weight: bold;
 }
 
+.page-title {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 4rem auto;
+  border-bottom: 1px solid black;
+  max-width: max-content;
+}
+
 .about-content-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.about-content-wrapper__description {
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 1rem;
-  margin: 6rem;
-  border-bottom: 1px solid black;
-}
 .about-content-wrapper__image {
-  width: 50%;
+  width: 40%;
 }
 
+@media screen and (max-width: 768px) {
+  .about-content-wrapper__description {
+    font-size: 1.5rem;
+    margin: 2rem;
+  }
+  .about-content-wrapper__image {
+    width: 20rem;
+  }
+}
 .opinions-section-wrapper {
   display: flex;
   flex-direction: column;
@@ -256,15 +267,6 @@
 .visible {
   transition: 2s ease;
   opacity: 1;
-}
-
-.offer-content-title {
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 1rem;
-  margin: 6rem auto;
-  border-bottom: 1px solid black;
-  max-width: max-content;
 }
 
 .offer-wrapper {
@@ -364,14 +366,6 @@
 }
 .contact-content__section__description {
   padding: 0 1rem;
-}
-.contact-content-title {
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 1rem;
-  margin: 6rem auto;
-  border-bottom: 1px solid black;
-  max-width: max-content;
 }
 
 .shop__contact {

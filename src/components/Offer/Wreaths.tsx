@@ -5,6 +5,7 @@ export const Wreaths = () => {
   const { setPath } = useGlobalContext();
   const { ref, inView } = useInView({
     threshold: 0.1,
+    triggerOnce: true,
   });
 
   return (

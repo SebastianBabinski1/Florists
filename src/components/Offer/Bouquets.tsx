@@ -4,6 +4,7 @@ import { useGlobalContext } from "./Offer";
 export const Bouquets = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
+    triggerOnce: true,
   });
   const { setPath } = useGlobalContext();
   return (

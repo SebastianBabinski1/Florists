@@ -5,6 +5,7 @@ export const Cemetery = () => {
   const { setPath } = useGlobalContext();
   const { ref, inView } = useInView({
     threshold: 0.05,
+    triggerOnce: true,
   });
 
   return (

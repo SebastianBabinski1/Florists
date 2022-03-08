@@ -4,7 +4,8 @@ import { useInView } from "react-intersection-observer";
 export const Compositions = () => {
   const { setPath } = useGlobalContext();
   const { ref, inView } = useInView({
-    threshold: 0.05,
+    threshold: 0.1,
+    triggerOnce: true,
   });
 
   return (

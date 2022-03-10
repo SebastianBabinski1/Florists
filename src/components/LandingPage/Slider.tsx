@@ -7,24 +7,24 @@ export const Slider = () => {
         <li data-target="#carousel" data-slide-to="2"></li>
       </ol>
       <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img
-            className="d-block w-100"
-            src="assets/Slider/slider1.jpg"
-            alt="First composition"
-          />
-        </div>
         <div className="carousel-item">
           <img
             className="d-block w-100"
-            src="assets/Slider/slider2.jpg"
+            src="assets/flowers-background.jpg"
+            alt="First composition"
+          />
+        </div>
+        <div className="carousel-item active">
+          <img
+            className="d-block w-100"
+            src="assets/Slider/slider4.jpg"
             alt="Second composition"
           />
         </div>
         <div className="carousel-item">
           <img
             className="d-block w-100"
-            src="assets/Slider/slider3.jpg"
+            src="assets/Slider/slider5.jpg"
             alt="Third composition"
           />
         </div>

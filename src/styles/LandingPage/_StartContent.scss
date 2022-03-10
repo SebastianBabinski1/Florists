@@ -22,11 +22,15 @@
 
 }
 .advantage {
-    margin: 2rem;
+    margin: 1rem;
+    padding: 1rem;
     width: 25%;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
 
     &__title{
-        font-size: 1.8rem;
+        margin: 1rem 0;
+        font-size: 1.3rem;
         font-weight: bold;
     }
 

@@ -21,7 +21,7 @@ export const Footer = () => {
         <div className="bottom-bar__right">
           <p>Pieniężno, ul. Zamkowa 2A/2</p>
           <div className="bottom-bar__right__phone-wrapper">
-            <a href="tel:+883645559">
+            <a href="tel:+48883645559">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"

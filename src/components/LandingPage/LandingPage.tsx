@@ -6,12 +6,12 @@ import { SummaryBar } from "./SummaryBar";
 
 export const LandingPage = () => {
   return (
-    <>
+    <div className="landing-page-wrapper">
       <Navbar />
       <Slider />
       <StartContent />
       <SummaryBar />
       <Footer />
-    </>
+    </div>
   );
 };

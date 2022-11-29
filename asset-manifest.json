@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Florists/static/css/main.f8e3e0ce.css",
+    "main.js": "/Florists/static/js/main.5fc60d20.js",
+    "index.html": "/Florists/index.html",
+    "main.f8e3e0ce.css.map": "/Florists/static/css/main.f8e3e0ce.css.map",
+    "main.5fc60d20.js.map": "/Florists/static/js/main.5fc60d20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8e3e0ce.css",
+    "static/js/main.5fc60d20.js"
+  ]
+}
